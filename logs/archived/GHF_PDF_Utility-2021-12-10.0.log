@@ -1,0 +1,649 @@
+2021-12-10 10:54:29,447 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting SplitMergeCompressUtilityApplication using Java 16.0.2 on shraddha-Inspiron-5570 with PID 16436 (/home/shraddha/smc stable code 9 Dec/SMCUtility/SplitMergeCompressUtility/target/classes started by shraddha in /home/shraddha/smc stable code 9 Dec/SMCUtility/SplitMergeCompressUtility)
+2021-12-10 10:54:29,451 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-12-10 10:54:29,511 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-12-10 10:54:29,512 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-12-10 10:54:31,381 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-12-10 10:54:31,450 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 50 ms. Found 1 JPA repository interfaces.
+2021-12-10 10:54:31,825 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@3aaafd9a' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-12-10 10:54:31,833 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-12-10 10:54:32,504 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 3307 (http)
+2021-12-10 10:54:32,575 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-3307"]
+2021-12-10 10:54:32,578 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2021-12-10 10:54:32,580 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.52]
+2021-12-10 10:54:32,817 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-12-10 10:54:32,817 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 3305 ms
+2021-12-10 10:54:33,204 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2021-12-10 10:54:33,958 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2021-12-10 10:54:34,109 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-12-10 10:54:34,245 INFO org.hibernate.Version [restartedMain] HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-12-10 10:54:34,556 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [restartedMain] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-12-10 10:54:34,873 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL94Dialect
+2021-12-10 10:54:36,174 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-12-10 10:54:36,187 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-12-10 10:54:36,551 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-12-10 10:54:37,113 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3dc8abf2, org.springframework.security.web.context.SecurityContextPersistenceFilter@482e8914, org.springframework.security.web.header.HeaderWriterFilter@31b71154, org.springframework.web.filter.CorsFilter@620a0f7d, org.springframework.security.web.authentication.logout.LogoutFilter@7debdcd2, com.flentas.config.JwtRequestFilter@18fcbbed, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@63bb0718, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@23853f9e, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@183418b8, org.springframework.security.web.session.SessionManagementFilter@795bd7d0, org.springframework.security.web.access.ExceptionTranslationFilter@4cac0829, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@247d1b2c]
+2021-12-10 10:54:37,290 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2021-12-10 10:54:37,306 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-3307"]
+2021-12-10 10:54:37,346 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 3307 (http) with context path ''
+2021-12-10 10:54:37,358 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started SplitMergeCompressUtilityApplication in 8.775 seconds (JVM running for 11.736)
+2021-12-10 10:54:37,365 INFO com.flentas.SplitMergeCompressUtilityApplication [restartedMain] SpringBootApplication executed successfully
+2021-12-10 10:55:12,941 INFO org.apache.juli.logging.DirectJDKLog [http-nio-3307-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-12-10 10:55:12,941 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-3307-exec-2] Initializing Servlet 'dispatcherServlet'
+2021-12-10 10:55:12,942 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-3307-exec-2] Completed initialization in 1 ms
+2021-12-10 10:55:12,963 INFO com.flentas.config.ResponseHeaderFilter [http-nio-3307-exec-2] Logging Request  POST : /authenticate
+2021-12-10 10:55:13,095 INFO com.flentas.controller.JwtAuthenticationController [http-nio-3307-exec-2] Request for JwtAuthenticationController initiate successfully
+2021-12-10 10:55:13,201 INFO com.flentas.service.JwtUserDetailsService [http-nio-3307-exec-2] Request for jwtUserDetailsService initiate successfullyapp2
+2021-12-10 10:55:13,201 INFO com.flentas.service.JwtUserDetailsService [http-nio-3307-exec-2] appData1app1~$2a$10$.raFrFyP2F/MnqdKdx9Jces5oZIFRyD8FX7B318WEFpmqcpQKV9ym##app2~$2a$10$l3o7o.a7b0tlFKhNVP9VneF8Me8jkjEch3JzJxMnBZ7rWEFpOFcjq##app3~$2a$10$ElToW9zI8DZyElG51GzgRe2kgIVy113X4232.txzRkoTLfkST5Qhm
+2021-12-10 10:55:13,202 INFO com.flentas.service.JwtUserDetailsService [http-nio-3307-exec-2] appId checked successfullyapp2
+2021-12-10 10:55:13,202 INFO com.flentas.service.JwtUserDetailsService [http-nio-3307-exec-2] appSecretKey matched successfully$2a$10$l3o7o.a7b0tlFKhNVP9VneF8Me8jkjEch3JzJxMnBZ7rWEFpOFcjq
+2021-12-10 10:55:13,309 INFO com.flentas.controller.JwtAuthenticationController [http-nio-3307-exec-2] username authenticated successfullyapp2
+2021-12-10 10:55:13,309 INFO com.flentas.controller.JwtAuthenticationController [http-nio-3307-exec-2] password authenticated successfullyapplication2
+2021-12-10 10:55:13,309 INFO com.flentas.service.JwtUserDetailsService [http-nio-3307-exec-2] Request for jwtUserDetailsService initiate successfullyapp2
+2021-12-10 10:55:13,309 INFO com.flentas.service.JwtUserDetailsService [http-nio-3307-exec-2] appData1app1~$2a$10$.raFrFyP2F/MnqdKdx9Jces5oZIFRyD8FX7B318WEFpmqcpQKV9ym##app2~$2a$10$l3o7o.a7b0tlFKhNVP9VneF8Me8jkjEch3JzJxMnBZ7rWEFpOFcjq##app3~$2a$10$ElToW9zI8DZyElG51GzgRe2kgIVy113X4232.txzRkoTLfkST5Qhm
+2021-12-10 10:55:13,309 INFO com.flentas.service.JwtUserDetailsService [http-nio-3307-exec-2] appId checked successfullyapp2
+2021-12-10 10:55:13,310 INFO com.flentas.service.JwtUserDetailsService [http-nio-3307-exec-2] appSecretKey matched successfully$2a$10$l3o7o.a7b0tlFKhNVP9VneF8Me8jkjEch3JzJxMnBZ7rWEFpOFcjq
+2021-12-10 10:55:13,310 INFO com.flentas.controller.JwtAuthenticationController [http-nio-3307-exec-2] loadUserByUsername method initiate successfullyapp2
+2021-12-10 10:55:13,418 INFO com.flentas.controller.JwtAuthenticationController [http-nio-3307-exec-2] token generated successfullyeyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhcHAyIiwiZXhwIjoxNjM5MTYwOTk5LCJpYXQiOjE2MzkxMTM5MTN9.rPgb55y6nzQPp8YNfGYqC08BhXnuFXXG8tAKOq7lTORghGCW4O1HVb2TSMnXlQtDEF66s_--HsuAPIMN5o7P5w
+2021-12-10 10:55:13,440 INFO com.flentas.config.ResponseHeaderFilter [http-nio-3307-exec-2] Logging Response :application/json
+2021-12-10 10:57:14,107 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [Thread-5] Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-12-10 10:57:14,111 INFO com.zaxxer.hikari.HikariDataSource [Thread-5] HikariPool-1 - Shutdown initiated...
+2021-12-10 10:57:14,123 INFO com.zaxxer.hikari.HikariDataSource [Thread-5] HikariPool-1 - Shutdown completed.
+2021-12-10 10:57:14,221 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting SplitMergeCompressUtilityApplication using Java 16.0.2 on shraddha-Inspiron-5570 with PID 16436 (/home/shraddha/smc stable code 9 Dec/SMCUtility/SplitMergeCompressUtility/target/classes started by shraddha in /home/shraddha/smc stable code 9 Dec/SMCUtility/SplitMergeCompressUtility)
+2021-12-10 10:57:14,222 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-12-10 10:57:14,392 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-12-10 10:57:14,404 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 11 ms. Found 1 JPA repository interfaces.
+2021-12-10 10:57:14,479 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@7be65f6d' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-12-10 10:57:14,481 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-12-10 10:57:15,006 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 3307 (http)
+2021-12-10 10:57:15,007 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-3307"]
+2021-12-10 10:57:15,007 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2021-12-10 10:57:15,007 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.52]
+2021-12-10 10:57:15,176 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-12-10 10:57:15,176 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 952 ms
+2021-12-10 10:57:15,237 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-2 - Starting...
+2021-12-10 10:57:15,258 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-2 - Start completed.
+2021-12-10 10:57:15,260 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-12-10 10:57:15,264 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL94Dialect
+2021-12-10 10:57:15,385 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-12-10 10:57:15,385 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-12-10 10:57:15,489 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-12-10 10:57:15,634 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2731c2ae, org.springframework.security.web.context.SecurityContextPersistenceFilter@763f073e, org.springframework.security.web.header.HeaderWriterFilter@4b105c47, org.springframework.web.filter.CorsFilter@257b123c, org.springframework.security.web.authentication.logout.LogoutFilter@6d001222, com.flentas.config.JwtRequestFilter@6ede0218, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7431a4e4, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3d0a2c41, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@77640385, org.springframework.security.web.session.SessionManagementFilter@69b18f2, org.springframework.security.web.access.ExceptionTranslationFilter@2c85c13c, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@592f9452]
+2021-12-10 10:57:15,704 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2021-12-10 10:57:15,712 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-3307"]
+2021-12-10 10:57:15,712 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 3307 (http) with context path ''
+2021-12-10 10:57:15,718 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started SplitMergeCompressUtilityApplication in 1.532 seconds (JVM running for 170.096)
+2021-12-10 10:57:15,721 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2021-12-10 10:57:15,721 INFO com.flentas.SplitMergeCompressUtilityApplication [restartedMain] SpringBootApplication executed successfully
+2021-12-10 10:57:19,849 INFO org.apache.juli.logging.DirectJDKLog [http-nio-3307-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-12-10 10:57:19,849 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-3307-exec-2] Initializing Servlet 'dispatcherServlet'
+2021-12-10 10:57:19,850 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-3307-exec-2] Completed initialization in 1 ms
+2021-12-10 10:57:19,851 INFO com.flentas.config.ResponseHeaderFilter [http-nio-3307-exec-2] Logging Request  POST : /authenticate
+2021-12-10 10:57:19,853 INFO com.flentas.controller.JwtAuthenticationController [http-nio-3307-exec-2] Request for JwtAuthenticationController initiate successfully
+2021-12-10 10:57:19,953 INFO com.flentas.service.JwtUserDetailsService [http-nio-3307-exec-2] Request for jwtUserDetailsService initiate successfullyapp2
+2021-12-10 10:57:19,953 INFO com.flentas.service.JwtUserDetailsService [http-nio-3307-exec-2] appData1app1~$2a$10$.raFrFyP2F/MnqdKdx9Jces5oZIFRyD8FX7B318WEFpmqcpQKV9ym##app2~$2a$10$l3o7o.a7b0tlFKhNVP9VneF8Me8jkjEch3JzJxMnBZ7rWEFpOFcjq##app3~$2a$10$ElToW9zI8DZyElG51GzgRe2kgIVy113X4232.txzRkoTLfkST5Qhm
+2021-12-10 10:57:19,953 INFO com.flentas.service.JwtUserDetailsService [http-nio-3307-exec-2] appId checked successfullyapp2
+2021-12-10 10:57:19,953 INFO com.flentas.service.JwtUserDetailsService [http-nio-3307-exec-2] appSecretKey matched successfully$2a$10$l3o7o.a7b0tlFKhNVP9VneF8Me8jkjEch3JzJxMnBZ7rWEFpOFcjq
+2021-12-10 10:57:20,048 INFO com.flentas.controller.JwtAuthenticationController [http-nio-3307-exec-2] username authenticated successfullyapp2
+2021-12-10 10:57:20,048 INFO com.flentas.controller.JwtAuthenticationController [http-nio-3307-exec-2] password authenticated successfullyapplication2
+2021-12-10 10:57:20,049 INFO com.flentas.service.JwtUserDetailsService [http-nio-3307-exec-2] Request for jwtUserDetailsService initiate successfullyapp2
+2021-12-10 10:57:20,049 INFO com.flentas.service.JwtUserDetailsService [http-nio-3307-exec-2] appData1app1~$2a$10$.raFrFyP2F/MnqdKdx9Jces5oZIFRyD8FX7B318WEFpmqcpQKV9ym##app2~$2a$10$l3o7o.a7b0tlFKhNVP9VneF8Me8jkjEch3JzJxMnBZ7rWEFpOFcjq##app3~$2a$10$ElToW9zI8DZyElG51GzgRe2kgIVy113X4232.txzRkoTLfkST5Qhm
+2021-12-10 10:57:20,049 INFO com.flentas.service.JwtUserDetailsService [http-nio-3307-exec-2] appId checked successfullyapp2
+2021-12-10 10:57:20,049 INFO com.flentas.service.JwtUserDetailsService [http-nio-3307-exec-2] appSecretKey matched successfully$2a$10$l3o7o.a7b0tlFKhNVP9VneF8Me8jkjEch3JzJxMnBZ7rWEFpOFcjq
+2021-12-10 10:57:20,049 INFO com.flentas.controller.JwtAuthenticationController [http-nio-3307-exec-2] loadUserByUsername method initiate successfullyapp2
+2021-12-10 10:57:20,050 INFO com.flentas.controller.JwtAuthenticationController [http-nio-3307-exec-2] token generated successfullyeyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhcHAyIiwiZXhwIjoxNjM5MTYwOTk5LCJpYXQiOjE2MzkxMTQwNDB9.IodjXYJ1WcRIngS-eEbyNpqdlkLZWSTt8kWCTatFxMuEinYCJtCEfkWrhA8ZpZNe8HYgJhobPMUKNEGJqmX2oA
+2021-12-10 10:57:20,052 INFO com.flentas.config.ResponseHeaderFilter [http-nio-3307-exec-2] Logging Response :application/json
+2021-12-10 10:58:16,588 INFO com.flentas.config.ResponseHeaderFilter [http-nio-3307-exec-3] Logging Request  POST : /authenticate
+2021-12-10 10:58:16,589 INFO com.flentas.controller.JwtAuthenticationController [http-nio-3307-exec-3] Request for JwtAuthenticationController initiate successfully
+2021-12-10 10:58:16,590 INFO com.flentas.service.JwtUserDetailsService [http-nio-3307-exec-3] Request for jwtUserDetailsService initiate successfullyapp2
+2021-12-10 10:58:16,590 INFO com.flentas.service.JwtUserDetailsService [http-nio-3307-exec-3] appData1app1~$2a$10$.raFrFyP2F/MnqdKdx9Jces5oZIFRyD8FX7B318WEFpmqcpQKV9ym##app2~$2a$10$l3o7o.a7b0tlFKhNVP9VneF8Me8jkjEch3JzJxMnBZ7rWEFpOFcjq##app3~$2a$10$ElToW9zI8DZyElG51GzgRe2kgIVy113X4232.txzRkoTLfkST5Qhm
+2021-12-10 10:58:16,590 INFO com.flentas.service.JwtUserDetailsService [http-nio-3307-exec-3] appId checked successfullyapp2
+2021-12-10 10:58:16,590 INFO com.flentas.service.JwtUserDetailsService [http-nio-3307-exec-3] appSecretKey matched successfully$2a$10$l3o7o.a7b0tlFKhNVP9VneF8Me8jkjEch3JzJxMnBZ7rWEFpOFcjq
+2021-12-10 10:58:16,686 INFO com.flentas.controller.JwtAuthenticationController [http-nio-3307-exec-3] username authenticated successfullyapp2
+2021-12-10 10:58:16,686 INFO com.flentas.controller.JwtAuthenticationController [http-nio-3307-exec-3] password authenticated successfullyapplication2
+2021-12-10 10:58:16,686 INFO com.flentas.service.JwtUserDetailsService [http-nio-3307-exec-3] Request for jwtUserDetailsService initiate successfullyapp2
+2021-12-10 10:58:16,687 INFO com.flentas.service.JwtUserDetailsService [http-nio-3307-exec-3] appData1app1~$2a$10$.raFrFyP2F/MnqdKdx9Jces5oZIFRyD8FX7B318WEFpmqcpQKV9ym##app2~$2a$10$l3o7o.a7b0tlFKhNVP9VneF8Me8jkjEch3JzJxMnBZ7rWEFpOFcjq##app3~$2a$10$ElToW9zI8DZyElG51GzgRe2kgIVy113X4232.txzRkoTLfkST5Qhm
+2021-12-10 10:58:16,687 INFO com.flentas.service.JwtUserDetailsService [http-nio-3307-exec-3] appId checked successfullyapp2
+2021-12-10 10:58:16,687 INFO com.flentas.service.JwtUserDetailsService [http-nio-3307-exec-3] appSecretKey matched successfully$2a$10$l3o7o.a7b0tlFKhNVP9VneF8Me8jkjEch3JzJxMnBZ7rWEFpOFcjq
+2021-12-10 10:58:16,687 INFO com.flentas.controller.JwtAuthenticationController [http-nio-3307-exec-3] loadUserByUsername method initiate successfullyapp2
+2021-12-10 10:58:16,688 INFO com.flentas.controller.JwtAuthenticationController [http-nio-3307-exec-3] token generated successfullyeyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhcHAyIiwiZXhwIjoxNjM5MTYwOTk5LCJpYXQiOjE2MzkxMTQwOTZ9.ze8ImnC9Hb0q6kcs_2jUzorUad1llO_Zcwe-_qFYTrRQRnL_uCUqL6s-BHylauPXy__GlaJBMZFMstJGFGXPxA
+2021-12-10 10:58:16,689 INFO com.flentas.config.ResponseHeaderFilter [http-nio-3307-exec-3] Logging Response :application/json
+2021-12-10 10:58:31,294 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [Thread-7] Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-12-10 10:58:31,296 INFO com.zaxxer.hikari.HikariDataSource [Thread-7] HikariPool-2 - Shutdown initiated...
+2021-12-10 10:58:31,304 INFO com.zaxxer.hikari.HikariDataSource [Thread-7] HikariPool-2 - Shutdown completed.
+2021-12-10 10:58:31,385 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting SplitMergeCompressUtilityApplication using Java 16.0.2 on shraddha-Inspiron-5570 with PID 16436 (/home/shraddha/smc stable code 9 Dec/SMCUtility/SplitMergeCompressUtility/target/classes started by shraddha in /home/shraddha/smc stable code 9 Dec/SMCUtility/SplitMergeCompressUtility)
+2021-12-10 10:58:31,385 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-12-10 10:58:31,509 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-12-10 10:58:31,517 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 7 ms. Found 1 JPA repository interfaces.
+2021-12-10 10:58:31,558 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@3a6145e0' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-12-10 10:58:31,559 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-12-10 10:58:32,381 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 3307 (http)
+2021-12-10 10:58:32,382 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-3307"]
+2021-12-10 10:58:32,383 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2021-12-10 10:58:32,383 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.52]
+2021-12-10 10:58:32,762 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-12-10 10:58:32,763 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 1375 ms
+2021-12-10 10:58:32,828 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-3 - Starting...
+2021-12-10 10:58:32,849 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-3 - Start completed.
+2021-12-10 10:58:32,851 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-12-10 10:58:32,854 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL94Dialect
+2021-12-10 10:58:32,920 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-12-10 10:58:32,921 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-12-10 10:58:33,003 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-12-10 10:58:33,130 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@465a4e5f, org.springframework.security.web.context.SecurityContextPersistenceFilter@3aa8c3c5, org.springframework.security.web.header.HeaderWriterFilter@53c4aae3, org.springframework.web.filter.CorsFilter@307ed85b, org.springframework.security.web.authentication.logout.LogoutFilter@5931895f, com.flentas.config.JwtRequestFilter@5a20e631, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@66730574, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@101628eb, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@72b62c63, org.springframework.security.web.session.SessionManagementFilter@326479b1, org.springframework.security.web.access.ExceptionTranslationFilter@6e364632, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@4a524462]
+2021-12-10 10:58:33,199 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2021-12-10 10:58:33,207 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-3307"]
+2021-12-10 10:58:33,208 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 3307 (http) with context path ''
+2021-12-10 10:58:33,213 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started SplitMergeCompressUtilityApplication in 1.859 seconds (JVM running for 247.591)
+2021-12-10 10:58:33,215 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2021-12-10 10:58:33,216 INFO com.flentas.SplitMergeCompressUtilityApplication [restartedMain] SpringBootApplication executed successfully
+2021-12-10 11:02:08,100 INFO org.apache.juli.logging.DirectJDKLog [http-nio-3307-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-12-10 11:02:08,100 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-3307-exec-2] Initializing Servlet 'dispatcherServlet'
+2021-12-10 11:02:08,101 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-3307-exec-2] Completed initialization in 1 ms
+2021-12-10 11:02:08,118 INFO com.flentas.service.JwtUserDetailsService [http-nio-3307-exec-2] Request for jwtUserDetailsService initiate successfullyapp2
+2021-12-10 11:02:08,118 INFO com.flentas.service.JwtUserDetailsService [http-nio-3307-exec-2] appData1app1~$2a$10$.raFrFyP2F/MnqdKdx9Jces5oZIFRyD8FX7B318WEFpmqcpQKV9ym##app2~$2a$10$l3o7o.a7b0tlFKhNVP9VneF8Me8jkjEch3JzJxMnBZ7rWEFpOFcjq##app3~$2a$10$ElToW9zI8DZyElG51GzgRe2kgIVy113X4232.txzRkoTLfkST5Qhm
+2021-12-10 11:02:08,118 INFO com.flentas.service.JwtUserDetailsService [http-nio-3307-exec-2] appId checked successfullyapp2
+2021-12-10 11:02:08,118 INFO com.flentas.service.JwtUserDetailsService [http-nio-3307-exec-2] appSecretKey matched successfully$2a$10$l3o7o.a7b0tlFKhNVP9VneF8Me8jkjEch3JzJxMnBZ7rWEFpOFcjq
+2021-12-10 11:02:08,121 INFO com.flentas.config.ResponseHeaderFilter [http-nio-3307-exec-2] Logging Request  POST : /api/merge
+2021-12-10 11:02:08,593 INFO com.flentas.controller.MergeController [http-nio-3307-exec-2] Request received for merge files successfully[Lorg.springframework.web.multipart.MultipartFile;@27a25462
+2021-12-10 11:02:09,070 INFO com.flentas.serviceImpl.MergeServiceImpl [http-nio-3307-exec-2] files uploaded successfullyOnlineFeeReciptMITWPU.pdf
+2021-12-10 11:02:09,072 INFO com.flentas.serviceImpl.MergeServiceImpl [http-nio-3307-exec-2] files uploaded successfullyPermission Request Form (Springer).docx.pdf
+2021-12-10 11:02:09,073 INFO com.flentas.serviceImpl.MergeServiceImpl [http-nio-3307-exec-2] Uploaded file added to pdf merger: /home/shraddha/smc stable code 9 Dec/SMCUtility/SplitMergeCompressUtility/mergeUploads/1OnlineFeeReciptMITWPU.pdf
+2021-12-10 11:02:09,074 INFO com.flentas.serviceImpl.MergeServiceImpl [http-nio-3307-exec-2] Uploaded file added to pdf merger: /home/shraddha/smc stable code 9 Dec/SMCUtility/SplitMergeCompressUtility/mergeUploads/2Permission Request Form (Springer).docx.pdf
+2021-12-10 11:02:10,501 INFO com.flentas.serviceImpl.MergeServiceImpl [http-nio-3307-exec-2] PDF Merged successfully
+2021-12-10 11:02:11,115 INFO com.flentas.serviceImpl.MergeServiceImpl [http-nio-3307-exec-2] Added to audit successfully
+2021-12-10 11:02:11,116 INFO com.flentas.serviceImpl.MergeServiceImpl [http-nio-3307-exec-2] uploaded files deleted successfully
+2021-12-10 11:02:11,117 INFO com.flentas.serviceImpl.MergeServiceImpl [http-nio-3307-exec-2] uploaded files deleted successfully
+2021-12-10 11:02:11,117 INFO com.flentas.serviceImpl.MergeServiceImpl [http-nio-3307-exec-2] Final Path: mergeOutput/merged_10122021_110208.pdf
+2021-12-10 11:02:11,119 INFO com.flentas.serviceImpl.MergeServiceImpl [http-nio-3307-exec-2] merged file downloaded successfully:merged_10122021_110208.pdf
+2021-12-10 11:02:11,120 INFO com.flentas.serviceImpl.MergeServiceImpl [http-nio-3307-exec-2] merged file downloaded successfully:mergeOutput/merged_10122021_110208.pdf
+2021-12-10 11:02:11,133 INFO com.flentas.config.ResponseHeaderFilter [http-nio-3307-exec-2] Logging Response :application/octet-stream
+2021-12-10 11:02:59,801 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [Thread-11] Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-12-10 11:02:59,803 INFO com.zaxxer.hikari.HikariDataSource [Thread-11] HikariPool-3 - Shutdown initiated...
+2021-12-10 11:02:59,816 INFO com.zaxxer.hikari.HikariDataSource [Thread-11] HikariPool-3 - Shutdown completed.
+2021-12-10 11:02:59,903 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting SplitMergeCompressUtilityApplication using Java 16.0.2 on shraddha-Inspiron-5570 with PID 16436 (/home/shraddha/smc stable code 9 Dec/SMCUtility/SplitMergeCompressUtility/target/classes started by shraddha in /home/shraddha/smc stable code 9 Dec/SMCUtility/SplitMergeCompressUtility)
+2021-12-10 11:02:59,903 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-12-10 11:03:00,031 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-12-10 11:03:00,039 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 7 ms. Found 1 JPA repository interfaces.
+2021-12-10 11:03:00,076 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@785fe4d8' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-12-10 11:03:00,077 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-12-10 11:03:00,123 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 3307 (http)
+2021-12-10 11:03:00,124 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-3307"]
+2021-12-10 11:03:00,124 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2021-12-10 11:03:00,124 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.52]
+2021-12-10 11:03:00,562 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-12-10 11:03:00,563 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 656 ms
+2021-12-10 11:03:00,624 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-4 - Starting...
+2021-12-10 11:03:00,645 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-4 - Start completed.
+2021-12-10 11:03:00,648 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-12-10 11:03:00,653 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL94Dialect
+2021-12-10 11:03:00,734 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-12-10 11:03:00,734 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-12-10 11:03:00,850 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-12-10 11:03:01,014 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@47915e9e, org.springframework.security.web.context.SecurityContextPersistenceFilter@6e975f3b, org.springframework.security.web.header.HeaderWriterFilter@79763ddf, org.springframework.web.filter.CorsFilter@4117b5e0, org.springframework.security.web.authentication.logout.LogoutFilter@3438f8fb, com.flentas.config.JwtRequestFilter@2a86db13, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5175f7db, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@19a5a0ef, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7e6b08fd, org.springframework.security.web.session.SessionManagementFilter@355990fc, org.springframework.security.web.access.ExceptionTranslationFilter@469f284a, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5ff479a7]
+2021-12-10 11:03:01,092 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2021-12-10 11:03:01,100 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-3307"]
+2021-12-10 11:03:01,101 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 3307 (http) with context path ''
+2021-12-10 11:03:01,106 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started SplitMergeCompressUtilityApplication in 1.231 seconds (JVM running for 515.484)
+2021-12-10 11:03:01,109 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2021-12-10 11:03:01,109 INFO com.flentas.SplitMergeCompressUtilityApplication [restartedMain] SpringBootApplication executed successfully
+2021-12-10 11:03:07,905 INFO org.apache.juli.logging.DirectJDKLog [http-nio-3307-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-12-10 11:03:07,905 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-3307-exec-2] Initializing Servlet 'dispatcherServlet'
+2021-12-10 11:03:07,906 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-3307-exec-2] Completed initialization in 1 ms
+2021-12-10 11:03:07,909 INFO com.flentas.service.JwtUserDetailsService [http-nio-3307-exec-2] Request for jwtUserDetailsService initiate successfullyapp2
+2021-12-10 11:03:07,909 INFO com.flentas.service.JwtUserDetailsService [http-nio-3307-exec-2] appData1app1~$2a$10$.raFrFyP2F/MnqdKdx9Jces5oZIFRyD8FX7B318WEFpmqcpQKV9ym##app2~$2a$10$l3o7o.a7b0tlFKhNVP9VneF8Me8jkjEch3JzJxMnBZ7rWEFpOFcjq##app3~$2a$10$ElToW9zI8DZyElG51GzgRe2kgIVy113X4232.txzRkoTLfkST5Qhm
+2021-12-10 11:03:07,909 INFO com.flentas.service.JwtUserDetailsService [http-nio-3307-exec-2] appId checked successfullyapp2
+2021-12-10 11:03:07,909 INFO com.flentas.service.JwtUserDetailsService [http-nio-3307-exec-2] appSecretKey matched successfully$2a$10$l3o7o.a7b0tlFKhNVP9VneF8Me8jkjEch3JzJxMnBZ7rWEFpOFcjq
+2021-12-10 11:03:07,911 INFO com.flentas.config.ResponseHeaderFilter [http-nio-3307-exec-2] Logging Request  POST : /api/merge
+2021-12-10 11:03:07,919 INFO com.flentas.controller.MergeController [http-nio-3307-exec-2] Request received for merge files successfully[Lorg.springframework.web.multipart.MultipartFile;@d4f02d9
+2021-12-10 11:03:07,920 INFO com.flentas.serviceImpl.MergeServiceImpl [http-nio-3307-exec-2] files uploaded successfullyOnlineFeeReciptMITWPU.pdf
+2021-12-10 11:03:07,921 INFO com.flentas.serviceImpl.MergeServiceImpl [http-nio-3307-exec-2] files uploaded successfullyPermission Request Form (Springer).docx.pdf
+2021-12-10 11:03:07,921 INFO com.flentas.serviceImpl.MergeServiceImpl [http-nio-3307-exec-2] Uploaded file added to pdf merger: /home/shraddha/smc stable code 9 Dec/SMCUtility/SplitMergeCompressUtility/mergeUploads/1OnlineFeeReciptMITWPU.pdf
+2021-12-10 11:03:07,921 INFO com.flentas.serviceImpl.MergeServiceImpl [http-nio-3307-exec-2] Uploaded file added to pdf merger: /home/shraddha/smc stable code 9 Dec/SMCUtility/SplitMergeCompressUtility/mergeUploads/2Permission Request Form (Springer).docx.pdf
+2021-12-10 11:03:07,932 INFO com.flentas.serviceImpl.MergeServiceImpl [http-nio-3307-exec-2] PDF Merged successfully
+2021-12-10 11:03:08,581 INFO com.flentas.serviceImpl.MergeServiceImpl [http-nio-3307-exec-2] Added to audit successfully
+2021-12-10 11:03:08,583 INFO com.flentas.serviceImpl.MergeServiceImpl [http-nio-3307-exec-2] uploaded files deleted successfully
+2021-12-10 11:03:08,584 INFO com.flentas.serviceImpl.MergeServiceImpl [http-nio-3307-exec-2] uploaded files deleted successfully
+2021-12-10 11:03:08,584 INFO com.flentas.serviceImpl.MergeServiceImpl [http-nio-3307-exec-2] Final Path: mergeOutput/merged_10122021_110307.pdf
+2021-12-10 11:03:08,587 INFO com.flentas.serviceImpl.MergeServiceImpl [http-nio-3307-exec-2] merged file downloaded successfully:merged_10122021_110307.pdf
+2021-12-10 11:03:08,587 INFO com.flentas.serviceImpl.MergeServiceImpl [http-nio-3307-exec-2] merged file downloaded successfully:mergeOutput/merged_10122021_110307.pdf
+2021-12-10 11:03:08,598 INFO com.flentas.config.ResponseHeaderFilter [http-nio-3307-exec-2] Logging Response :application/octet-stream
+2021-12-10 11:03:25,558 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [Thread-15] Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-12-10 11:03:25,559 INFO com.zaxxer.hikari.HikariDataSource [Thread-15] HikariPool-4 - Shutdown initiated...
+2021-12-10 11:03:25,567 INFO com.zaxxer.hikari.HikariDataSource [Thread-15] HikariPool-4 - Shutdown completed.
+2021-12-10 11:03:25,648 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting SplitMergeCompressUtilityApplication using Java 16.0.2 on shraddha-Inspiron-5570 with PID 16436 (/home/shraddha/smc stable code 9 Dec/SMCUtility/SplitMergeCompressUtility/target/classes started by shraddha in /home/shraddha/smc stable code 9 Dec/SMCUtility/SplitMergeCompressUtility)
+2021-12-10 11:03:25,649 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-12-10 11:03:25,770 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-12-10 11:03:25,777 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 6 ms. Found 1 JPA repository interfaces.
+2021-12-10 11:03:25,820 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@6aee8db7' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-12-10 11:03:25,821 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-12-10 11:03:25,876 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 3307 (http)
+2021-12-10 11:03:25,877 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-3307"]
+2021-12-10 11:03:25,877 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2021-12-10 11:03:25,878 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.52]
+2021-12-10 11:03:26,244 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-12-10 11:03:26,244 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 593 ms
+2021-12-10 11:03:26,285 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-5 - Starting...
+2021-12-10 11:03:26,300 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-5 - Start completed.
+2021-12-10 11:03:26,302 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-12-10 11:03:26,305 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL94Dialect
+2021-12-10 11:03:26,371 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-12-10 11:03:26,372 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-12-10 11:03:26,458 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-12-10 11:03:26,604 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@22eeb36c, org.springframework.security.web.context.SecurityContextPersistenceFilter@4e253a19, org.springframework.security.web.header.HeaderWriterFilter@6d894c6, org.springframework.web.filter.CorsFilter@5078f2b3, org.springframework.security.web.authentication.logout.LogoutFilter@291939ca, com.flentas.config.JwtRequestFilter@513c435e, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@63e7c86e, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@215b1e70, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2c61d6fd, org.springframework.security.web.session.SessionManagementFilter@3d6a4aa9, org.springframework.security.web.access.ExceptionTranslationFilter@7c8a2ca7, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@fb101ee]
+2021-12-10 11:03:26,674 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2021-12-10 11:03:26,682 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-3307"]
+2021-12-10 11:03:26,683 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 3307 (http) with context path ''
+2021-12-10 11:03:26,689 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started SplitMergeCompressUtilityApplication in 1.068 seconds (JVM running for 541.067)
+2021-12-10 11:03:26,691 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2021-12-10 11:03:26,691 INFO com.flentas.SplitMergeCompressUtilityApplication [restartedMain] SpringBootApplication executed successfully
+2021-12-10 11:03:31,222 INFO org.apache.juli.logging.DirectJDKLog [http-nio-3307-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-12-10 11:03:31,222 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-3307-exec-2] Initializing Servlet 'dispatcherServlet'
+2021-12-10 11:03:31,224 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-3307-exec-2] Completed initialization in 2 ms
+2021-12-10 11:03:31,226 INFO com.flentas.service.JwtUserDetailsService [http-nio-3307-exec-2] Request for jwtUserDetailsService initiate successfullyapp2
+2021-12-10 11:03:31,226 INFO com.flentas.service.JwtUserDetailsService [http-nio-3307-exec-2] appData1app1~$2a$10$.raFrFyP2F/MnqdKdx9Jces5oZIFRyD8FX7B318WEFpmqcpQKV9ym##app2~$2a$10$l3o7o.a7b0tlFKhNVP9VneF8Me8jkjEch3JzJxMnBZ7rWEFpOFcjq##app3~$2a$10$ElToW9zI8DZyElG51GzgRe2kgIVy113X4232.txzRkoTLfkST5Qhm
+2021-12-10 11:03:31,227 INFO com.flentas.service.JwtUserDetailsService [http-nio-3307-exec-2] appId checked successfullyapp2
+2021-12-10 11:03:31,227 INFO com.flentas.service.JwtUserDetailsService [http-nio-3307-exec-2] appSecretKey matched successfully$2a$10$l3o7o.a7b0tlFKhNVP9VneF8Me8jkjEch3JzJxMnBZ7rWEFpOFcjq
+2021-12-10 11:03:31,230 INFO com.flentas.config.ResponseHeaderFilter [http-nio-3307-exec-2] Logging Request  POST : /api/merge
+2021-12-10 11:03:31,237 INFO com.flentas.controller.MergeController [http-nio-3307-exec-2] Request received for merge files successfully[Lorg.springframework.web.multipart.MultipartFile;@401eb41f
+2021-12-10 11:03:31,239 INFO com.flentas.serviceImpl.MergeServiceImpl [http-nio-3307-exec-2] files uploaded successfullyOnlineFeeReciptMITWPU.pdf
+2021-12-10 11:03:31,241 INFO com.flentas.serviceImpl.MergeServiceImpl [http-nio-3307-exec-2] files uploaded successfullyPermission Request Form (Springer).docx.pdf
+2021-12-10 11:03:31,241 INFO com.flentas.serviceImpl.MergeServiceImpl [http-nio-3307-exec-2] Uploaded file added to pdf merger: /home/shraddha/smc stable code 9 Dec/SMCUtility/SplitMergeCompressUtility/mergeUploads/1OnlineFeeReciptMITWPU.pdf
+2021-12-10 11:03:31,241 INFO com.flentas.serviceImpl.MergeServiceImpl [http-nio-3307-exec-2] Uploaded file added to pdf merger: /home/shraddha/smc stable code 9 Dec/SMCUtility/SplitMergeCompressUtility/mergeUploads/2Permission Request Form (Springer).docx.pdf
+2021-12-10 11:03:31,254 INFO com.flentas.serviceImpl.MergeServiceImpl [http-nio-3307-exec-2] PDF Merged successfully
+2021-12-10 11:03:32,337 INFO com.flentas.serviceImpl.MergeServiceImpl [http-nio-3307-exec-2] Added to audit successfully
+2021-12-10 11:03:32,338 INFO com.flentas.serviceImpl.MergeServiceImpl [http-nio-3307-exec-2] uploaded files deleted successfully
+2021-12-10 11:03:32,340 INFO com.flentas.serviceImpl.MergeServiceImpl [http-nio-3307-exec-2] uploaded files deleted successfully
+2021-12-10 11:03:32,341 INFO com.flentas.serviceImpl.MergeServiceImpl [http-nio-3307-exec-2] Final Path: mergeOutput/merged_10122021_110331.pdf
+2021-12-10 11:03:32,344 INFO com.flentas.serviceImpl.MergeServiceImpl [http-nio-3307-exec-2] merged file downloaded successfully:merged_10122021_110331.pdf
+2021-12-10 11:03:32,344 INFO com.flentas.serviceImpl.MergeServiceImpl [http-nio-3307-exec-2] merged file downloaded successfully:mergeOutput/merged_10122021_110331.pdf
+2021-12-10 11:03:32,357 INFO com.flentas.config.ResponseHeaderFilter [http-nio-3307-exec-2] Logging Response :application/octet-stream
+2021-12-10 16:14:10,219 INFO com.flentas.service.JwtUserDetailsService [http-nio-3307-exec-5] Request for jwtUserDetailsService initiate successfullyapp2
+2021-12-10 16:14:10,265 INFO com.flentas.service.JwtUserDetailsService [http-nio-3307-exec-5] appData1app1~$2a$10$.raFrFyP2F/MnqdKdx9Jces5oZIFRyD8FX7B318WEFpmqcpQKV9ym##app2~$2a$10$l3o7o.a7b0tlFKhNVP9VneF8Me8jkjEch3JzJxMnBZ7rWEFpOFcjq##app3~$2a$10$ElToW9zI8DZyElG51GzgRe2kgIVy113X4232.txzRkoTLfkST5Qhm
+2021-12-10 16:14:10,265 INFO com.flentas.service.JwtUserDetailsService [http-nio-3307-exec-5] appId checked successfullyapp2
+2021-12-10 16:14:10,265 INFO com.flentas.service.JwtUserDetailsService [http-nio-3307-exec-5] appSecretKey matched successfully$2a$10$l3o7o.a7b0tlFKhNVP9VneF8Me8jkjEch3JzJxMnBZ7rWEFpOFcjq
+2021-12-10 16:14:10,267 INFO com.flentas.config.ResponseHeaderFilter [http-nio-3307-exec-5] Logging Request  POST : /api/merge
+2021-12-10 16:14:10,292 INFO com.flentas.controller.MergeController [http-nio-3307-exec-5] Request received for merge files successfully[Lorg.springframework.web.multipart.MultipartFile;@1f5fe846
+2021-12-10 16:14:10,293 INFO com.flentas.serviceImpl.MergeServiceImpl [http-nio-3307-exec-5] files uploaded successfullyOnlineFeeReciptMITWPU.pdf
+2021-12-10 16:14:10,293 INFO com.flentas.serviceImpl.MergeServiceImpl [http-nio-3307-exec-5] files uploaded successfullyPermission Request Form (Springer).docx.pdf
+2021-12-10 16:14:10,294 INFO com.flentas.serviceImpl.MergeServiceImpl [http-nio-3307-exec-5] Uploaded file added to pdf merger: /home/shraddha/smc stable code 9 Dec/SMCUtility/SplitMergeCompressUtility/mergeUploads/1OnlineFeeReciptMITWPU.pdf
+2021-12-10 16:14:10,294 INFO com.flentas.serviceImpl.MergeServiceImpl [http-nio-3307-exec-5] Uploaded file added to pdf merger: /home/shraddha/smc stable code 9 Dec/SMCUtility/SplitMergeCompressUtility/mergeUploads/2Permission Request Form (Springer).docx.pdf
+2021-12-10 16:14:10,301 INFO com.flentas.serviceImpl.MergeServiceImpl [http-nio-3307-exec-5] PDF Merged successfully
+2021-12-10 16:14:10,359 INFO com.flentas.serviceImpl.MergeServiceImpl [http-nio-3307-exec-5] Added to audit successfully
+2021-12-10 16:14:10,361 INFO com.flentas.serviceImpl.MergeServiceImpl [http-nio-3307-exec-5] uploaded files deleted successfully
+2021-12-10 16:14:10,361 INFO com.flentas.serviceImpl.MergeServiceImpl [http-nio-3307-exec-5] uploaded files deleted successfully
+2021-12-10 16:14:10,361 INFO com.flentas.serviceImpl.MergeServiceImpl [http-nio-3307-exec-5] Final Path: mergeOutput/merged_10122021_161410.pdf
+2021-12-10 16:14:10,362 INFO com.flentas.serviceImpl.MergeServiceImpl [http-nio-3307-exec-5] merged file downloaded successfully:merged_10122021_161410.pdf
+2021-12-10 16:14:10,362 INFO com.flentas.serviceImpl.MergeServiceImpl [http-nio-3307-exec-5] merged file downloaded successfully:mergeOutput/merged_10122021_161410.pdf
+2021-12-10 16:14:10,364 INFO com.flentas.config.ResponseHeaderFilter [http-nio-3307-exec-5] Logging Response :application/octet-stream
+2021-12-10 16:16:58,324 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(286)-127.0.0.1] Application shutdown requested.
+2021-12-10 16:16:58,334 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [RMI TCP Connection(286)-127.0.0.1] Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-12-10 16:16:58,334 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(286)-127.0.0.1] HikariPool-5 - Shutdown initiated...
+2021-12-10 16:16:58,339 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(286)-127.0.0.1] HikariPool-5 - Shutdown completed.
+2021-12-10 16:17:04,305 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting SplitMergeCompressUtilityApplication using Java 16.0.2 on shraddha-Inspiron-5570 with PID 27964 (/home/shraddha/smc stable code 9 Dec/SMCUtility/SplitMergeCompressUtility/target/classes started by shraddha in /home/shraddha/smc stable code 9 Dec/SMCUtility/SplitMergeCompressUtility)
+2021-12-10 16:17:04,308 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-12-10 16:17:04,359 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-12-10 16:17:04,359 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-12-10 16:17:05,040 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-12-10 16:17:05,080 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 35 ms. Found 1 JPA repository interfaces.
+2021-12-10 16:17:05,309 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@571b81' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-12-10 16:17:05,314 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-12-10 16:17:05,572 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 3307 (http)
+2021-12-10 16:17:05,602 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-3307"]
+2021-12-10 16:17:05,603 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2021-12-10 16:17:05,603 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.52]
+2021-12-10 16:17:05,677 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-12-10 16:17:05,678 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 1318 ms
+2021-12-10 16:17:05,818 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2021-12-10 16:17:06,156 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2021-12-10 16:17:06,196 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-12-10 16:17:06,233 INFO org.hibernate.Version [restartedMain] HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-12-10 16:17:06,350 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [restartedMain] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-12-10 16:17:06,446 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL94Dialect
+2021-12-10 16:17:06,941 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-12-10 16:17:06,951 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-12-10 16:17:07,240 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-12-10 16:17:07,576 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7da5be62, org.springframework.security.web.context.SecurityContextPersistenceFilter@1c74a234, org.springframework.security.web.header.HeaderWriterFilter@625ea5e2, org.springframework.web.filter.CorsFilter@7996086c, org.springframework.security.web.authentication.logout.LogoutFilter@299f2c3f, com.flentas.config.JwtRequestFilter@1fae9040, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7414a6df, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@113e7a73, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3c8e3422, org.springframework.security.web.session.SessionManagementFilter@1d444283, org.springframework.security.web.access.ExceptionTranslationFilter@2af97daa, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@1227b4aa]
+2021-12-10 16:17:07,756 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2021-12-10 16:17:07,772 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-3307"]
+2021-12-10 16:17:07,782 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 3307 (http) with context path ''
+2021-12-10 16:17:07,792 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started SplitMergeCompressUtilityApplication in 4.054 seconds (JVM running for 5.652)
+2021-12-10 16:17:07,794 INFO com.flentas.SplitMergeCompressUtilityApplication [restartedMain] SpringBootApplication executed successfully
+2021-12-10 16:17:19,828 INFO org.apache.juli.logging.DirectJDKLog [http-nio-3307-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-12-10 16:17:19,829 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-3307-exec-2] Initializing Servlet 'dispatcherServlet'
+2021-12-10 16:17:19,830 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-3307-exec-2] Completed initialization in 1 ms
+2021-12-10 16:17:19,887 INFO com.flentas.service.JwtUserDetailsService [http-nio-3307-exec-2] Request for jwtUserDetailsService initiate successfullyapp2
+2021-12-10 16:17:19,887 INFO com.flentas.service.JwtUserDetailsService [http-nio-3307-exec-2] appData1app1~$2a$10$.raFrFyP2F/MnqdKdx9Jces5oZIFRyD8FX7B318WEFpmqcpQKV9ym##app2~$2a$10$l3o7o.a7b0tlFKhNVP9VneF8Me8jkjEch3JzJxMnBZ7rWEFpOFcjq##app3~$2a$10$ElToW9zI8DZyElG51GzgRe2kgIVy113X4232.txzRkoTLfkST5Qhm
+2021-12-10 16:17:19,888 INFO com.flentas.service.JwtUserDetailsService [http-nio-3307-exec-2] appId checked successfullyapp2
+2021-12-10 16:17:19,888 INFO com.flentas.service.JwtUserDetailsService [http-nio-3307-exec-2] appSecretKey matched successfully$2a$10$l3o7o.a7b0tlFKhNVP9VneF8Me8jkjEch3JzJxMnBZ7rWEFpOFcjq
+2021-12-10 16:17:19,902 INFO com.flentas.config.ResponseHeaderFilter [http-nio-3307-exec-2] Logging Request  POST : /api/merge
+2021-12-10 16:17:19,943 INFO com.flentas.controller.MergeController [http-nio-3307-exec-2] Request received for merge files successfully[Lorg.springframework.web.multipart.MultipartFile;@1974f25a
+2021-12-10 16:17:19,952 INFO com.flentas.serviceImpl.MergeServiceImpl [http-nio-3307-exec-2] files uploaded successfullyOnlineFeeReciptMITWPU.pdf
+2021-12-10 16:17:19,953 INFO com.flentas.serviceImpl.MergeServiceImpl [http-nio-3307-exec-2] files uploaded successfullyPermission Request Form (Springer).docx.pdf
+2021-12-10 16:17:19,953 INFO com.flentas.serviceImpl.MergeServiceImpl [http-nio-3307-exec-2] Uploaded file added to pdf merger: /home/shraddha/smc stable code 9 Dec/SMCUtility/SplitMergeCompressUtility/mergeUploads/1OnlineFeeReciptMITWPU.pdf
+2021-12-10 16:17:19,953 INFO com.flentas.serviceImpl.MergeServiceImpl [http-nio-3307-exec-2] Uploaded file added to pdf merger: /home/shraddha/smc stable code 9 Dec/SMCUtility/SplitMergeCompressUtility/mergeUploads/2Permission Request Form (Springer).docx.pdf
+2021-12-10 16:17:20,060 INFO com.flentas.serviceImpl.MergeServiceImpl [http-nio-3307-exec-2] PDF Merged successfully
+2021-12-10 16:17:20,140 INFO com.flentas.serviceImpl.MergeServiceImpl [http-nio-3307-exec-2] Added to audit successfully
+2021-12-10 16:17:20,141 INFO com.flentas.serviceImpl.MergeServiceImpl [http-nio-3307-exec-2] uploaded files deleted successfully
+2021-12-10 16:17:20,141 INFO com.flentas.serviceImpl.MergeServiceImpl [http-nio-3307-exec-2] uploaded files deleted successfully
+2021-12-10 16:17:20,141 INFO com.flentas.serviceImpl.MergeServiceImpl [http-nio-3307-exec-2] Final Path: mergeOutput/merged_10122021_161719.pdf
+2021-12-10 16:17:20,147 INFO com.flentas.serviceImpl.MergeServiceImpl [http-nio-3307-exec-2] merged file downloaded successfully:merged_10122021_161719.pdf
+2021-12-10 16:17:20,147 INFO com.flentas.serviceImpl.MergeServiceImpl [http-nio-3307-exec-2] merged file downloaded successfully:mergeOutput/merged_10122021_161719.pdf
+2021-12-10 16:17:20,161 INFO com.flentas.config.ResponseHeaderFilter [http-nio-3307-exec-2] Logging Response :application/octet-stream
+2021-12-10 16:22:29,988 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [Thread-5] Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-12-10 16:22:29,991 INFO com.zaxxer.hikari.HikariDataSource [Thread-5] HikariPool-1 - Shutdown initiated...
+2021-12-10 16:22:30,000 INFO com.zaxxer.hikari.HikariDataSource [Thread-5] HikariPool-1 - Shutdown completed.
+2021-12-10 16:22:30,091 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting SplitMergeCompressUtilityApplication using Java 16.0.2 on shraddha-Inspiron-5570 with PID 27964 (/home/shraddha/smc stable code 9 Dec/SMCUtility/SplitMergeCompressUtility/target/classes started by shraddha in /home/shraddha/smc stable code 9 Dec/SMCUtility/SplitMergeCompressUtility)
+2021-12-10 16:22:30,091 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-12-10 16:22:30,253 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-12-10 16:22:30,264 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 10 ms. Found 1 JPA repository interfaces.
+2021-12-10 16:22:30,326 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@321e0794' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-12-10 16:22:30,328 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-12-10 16:22:30,388 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 3307 (http)
+2021-12-10 16:22:30,389 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-3307"]
+2021-12-10 16:22:30,389 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2021-12-10 16:22:30,389 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.52]
+2021-12-10 16:22:30,425 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-12-10 16:22:30,426 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 333 ms
+2021-12-10 16:22:30,479 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-2 - Starting...
+2021-12-10 16:22:30,498 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-2 - Start completed.
+2021-12-10 16:22:30,500 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-12-10 16:22:30,504 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL94Dialect
+2021-12-10 16:22:30,596 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-12-10 16:22:30,597 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-12-10 16:22:30,715 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-12-10 16:22:30,860 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@30720be8, org.springframework.security.web.context.SecurityContextPersistenceFilter@5144be1d, org.springframework.security.web.header.HeaderWriterFilter@51177880, org.springframework.web.filter.CorsFilter@27099096, org.springframework.security.web.authentication.logout.LogoutFilter@419d21dc, com.flentas.config.JwtRequestFilter@14b21084, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@46029e98, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2c3b3da0, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@c662bf0, org.springframework.security.web.session.SessionManagementFilter@432b4a99, org.springframework.security.web.access.ExceptionTranslationFilter@690fcbd6, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@4a618bf3]
+2021-12-10 16:22:30,949 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2021-12-10 16:22:30,959 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-3307"]
+2021-12-10 16:22:30,960 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 3307 (http) with context path ''
+2021-12-10 16:22:30,967 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started SplitMergeCompressUtilityApplication in 0.915 seconds (JVM running for 328.827)
+2021-12-10 16:22:30,971 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2021-12-10 16:22:30,971 INFO com.flentas.SplitMergeCompressUtilityApplication [restartedMain] SpringBootApplication executed successfully
+2021-12-10 16:22:40,709 INFO org.apache.juli.logging.DirectJDKLog [http-nio-3307-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-12-10 16:22:40,710 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-3307-exec-2] Initializing Servlet 'dispatcherServlet'
+2021-12-10 16:22:40,711 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-3307-exec-2] Completed initialization in 1 ms
+2021-12-10 16:22:40,713 INFO com.flentas.service.JwtUserDetailsService [http-nio-3307-exec-2] Request for jwtUserDetailsService initiate successfullyapp2
+2021-12-10 16:22:40,714 INFO com.flentas.service.JwtUserDetailsService [http-nio-3307-exec-2] appData1app1~$2a$10$.raFrFyP2F/MnqdKdx9Jces5oZIFRyD8FX7B318WEFpmqcpQKV9ym##app2~$2a$10$l3o7o.a7b0tlFKhNVP9VneF8Me8jkjEch3JzJxMnBZ7rWEFpOFcjq##app3~$2a$10$ElToW9zI8DZyElG51GzgRe2kgIVy113X4232.txzRkoTLfkST5Qhm
+2021-12-10 16:22:40,714 INFO com.flentas.service.JwtUserDetailsService [http-nio-3307-exec-2] appId checked successfullyapp2
+2021-12-10 16:22:40,714 INFO com.flentas.service.JwtUserDetailsService [http-nio-3307-exec-2] appSecretKey matched successfully$2a$10$l3o7o.a7b0tlFKhNVP9VneF8Me8jkjEch3JzJxMnBZ7rWEFpOFcjq
+2021-12-10 16:22:40,717 INFO com.flentas.config.ResponseHeaderFilter [http-nio-3307-exec-2] Logging Request  POST : /api/merge
+2021-12-10 16:22:40,730 INFO com.flentas.controller.MergeController [http-nio-3307-exec-2] Request received for merge files successfully[Lorg.springframework.web.multipart.MultipartFile;@256d3769
+2021-12-10 16:22:40,733 INFO com.flentas.serviceImpl.MergeServiceImpl [http-nio-3307-exec-2] files uploaded successfullyOnlineFeeReciptMITWPU.pdf
+2021-12-10 16:22:40,733 INFO com.flentas.serviceImpl.MergeServiceImpl [http-nio-3307-exec-2] files uploaded successfullyPermission Request Form (Springer).docx.pdf
+2021-12-10 16:22:40,734 INFO com.flentas.serviceImpl.MergeServiceImpl [http-nio-3307-exec-2] Uploaded file added to pdf merger: /home/shraddha/smc stable code 9 Dec/SMCUtility/SplitMergeCompressUtility/mergeUploads/1OnlineFeeReciptMITWPU.pdf
+2021-12-10 16:22:40,734 INFO com.flentas.serviceImpl.MergeServiceImpl [http-nio-3307-exec-2] Uploaded file added to pdf merger: /home/shraddha/smc stable code 9 Dec/SMCUtility/SplitMergeCompressUtility/mergeUploads/2Permission Request Form (Springer).docx.pdf
+2021-12-10 16:22:40,751 INFO com.flentas.serviceImpl.MergeServiceImpl [http-nio-3307-exec-2] PDF Merged successfully
+2021-12-10 16:22:40,780 INFO com.flentas.serviceImpl.MergeServiceImpl [http-nio-3307-exec-2] Added to audit successfully
+2021-12-10 16:22:40,781 INFO com.flentas.serviceImpl.MergeServiceImpl [http-nio-3307-exec-2] uploaded files deleted successfully
+2021-12-10 16:22:40,781 INFO com.flentas.serviceImpl.MergeServiceImpl [http-nio-3307-exec-2] uploaded files deleted successfully
+2021-12-10 16:22:40,782 INFO com.flentas.serviceImpl.MergeServiceImpl [http-nio-3307-exec-2] Final Path: mergeOutput/merged_10122021_162240.pdf
+2021-12-10 16:22:40,782 INFO com.flentas.serviceImpl.MergeServiceImpl [http-nio-3307-exec-2] merged file downloaded successfully:merged_10122021_162240.pdf
+2021-12-10 16:22:40,783 INFO com.flentas.serviceImpl.MergeServiceImpl [http-nio-3307-exec-2] merged file downloaded successfully:mergeOutput/merged_10122021_162240.pdf
+2021-12-10 16:22:40,788 INFO com.flentas.config.ResponseHeaderFilter [http-nio-3307-exec-2] Logging Response :application/octet-stream
+2021-12-10 16:26:06,203 INFO com.flentas.service.JwtUserDetailsService [http-nio-3307-exec-5] Request for jwtUserDetailsService initiate successfullyapp2
+2021-12-10 16:26:06,204 INFO com.flentas.service.JwtUserDetailsService [http-nio-3307-exec-5] appData1app1~$2a$10$.raFrFyP2F/MnqdKdx9Jces5oZIFRyD8FX7B318WEFpmqcpQKV9ym##app2~$2a$10$l3o7o.a7b0tlFKhNVP9VneF8Me8jkjEch3JzJxMnBZ7rWEFpOFcjq##app3~$2a$10$ElToW9zI8DZyElG51GzgRe2kgIVy113X4232.txzRkoTLfkST5Qhm
+2021-12-10 16:26:06,204 INFO com.flentas.service.JwtUserDetailsService [http-nio-3307-exec-5] appId checked successfullyapp2
+2021-12-10 16:26:06,204 INFO com.flentas.service.JwtUserDetailsService [http-nio-3307-exec-5] appSecretKey matched successfully$2a$10$l3o7o.a7b0tlFKhNVP9VneF8Me8jkjEch3JzJxMnBZ7rWEFpOFcjq
+2021-12-10 16:26:06,206 INFO com.flentas.config.ResponseHeaderFilter [http-nio-3307-exec-5] Logging Request  POST : /api/merge
+2021-12-10 16:26:06,316 INFO com.flentas.controller.MergeController [http-nio-3307-exec-5] Request received for merge files successfully[Lorg.springframework.web.multipart.MultipartFile;@7aeb46a1
+2021-12-10 16:26:06,323 INFO com.flentas.serviceImpl.MergeServiceImpl [http-nio-3307-exec-5] files uploaded successfully15705606412.pdf
+2021-12-10 16:26:06,325 INFO com.flentas.serviceImpl.MergeServiceImpl [http-nio-3307-exec-5] files uploaded successfullyAdharCard.pdf
+2021-12-10 16:26:06,325 INFO com.flentas.serviceImpl.MergeServiceImpl [http-nio-3307-exec-5] Uploaded file added to pdf merger: /home/shraddha/smc stable code 9 Dec/SMCUtility/SplitMergeCompressUtility/mergeUploads/115705606412.pdf
+2021-12-10 16:26:06,326 INFO com.flentas.serviceImpl.MergeServiceImpl [http-nio-3307-exec-5] Uploaded file added to pdf merger: /home/shraddha/smc stable code 9 Dec/SMCUtility/SplitMergeCompressUtility/mergeUploads/2AdharCard.pdf
+2021-12-10 16:26:06,477 INFO com.flentas.serviceImpl.MergeServiceImpl [http-nio-3307-exec-5] PDF Merged successfully
+2021-12-10 16:26:06,499 INFO com.flentas.serviceImpl.MergeServiceImpl [http-nio-3307-exec-5] Added to audit successfully
+2021-12-10 16:26:06,499 INFO com.flentas.serviceImpl.MergeServiceImpl [http-nio-3307-exec-5] uploaded files deleted successfully
+2021-12-10 16:26:06,499 INFO com.flentas.serviceImpl.MergeServiceImpl [http-nio-3307-exec-5] uploaded files deleted successfully
+2021-12-10 16:26:06,499 INFO com.flentas.serviceImpl.MergeServiceImpl [http-nio-3307-exec-5] Final Path: mergeOutput/merged_10122021_162606.pdf
+2021-12-10 16:26:06,500 INFO com.flentas.serviceImpl.MergeServiceImpl [http-nio-3307-exec-5] merged file downloaded successfully:merged_10122021_162606.pdf
+2021-12-10 16:26:06,500 INFO com.flentas.serviceImpl.MergeServiceImpl [http-nio-3307-exec-5] merged file downloaded successfully:mergeOutput/merged_10122021_162606.pdf
+2021-12-10 16:26:06,503 INFO com.flentas.config.ResponseHeaderFilter [http-nio-3307-exec-5] Logging Response :application/octet-stream
+2021-12-10 16:30:39,876 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [Thread-7] Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-12-10 16:30:39,877 INFO com.zaxxer.hikari.HikariDataSource [Thread-7] HikariPool-2 - Shutdown initiated...
+2021-12-10 16:30:39,885 INFO com.zaxxer.hikari.HikariDataSource [Thread-7] HikariPool-2 - Shutdown completed.
+2021-12-10 16:30:39,972 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting SplitMergeCompressUtilityApplication using Java 16.0.2 on shraddha-Inspiron-5570 with PID 27964 (/home/shraddha/smc stable code 9 Dec/SMCUtility/SplitMergeCompressUtility/target/classes started by shraddha in /home/shraddha/smc stable code 9 Dec/SMCUtility/SplitMergeCompressUtility)
+2021-12-10 16:30:39,973 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-12-10 16:30:40,124 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-12-10 16:30:40,134 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 9 ms. Found 1 JPA repository interfaces.
+2021-12-10 16:30:40,183 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@243f3691' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-12-10 16:30:40,185 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-12-10 16:30:40,438 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 3307 (http)
+2021-12-10 16:30:40,440 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-3307"]
+2021-12-10 16:30:40,440 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2021-12-10 16:30:40,440 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.52]
+2021-12-10 16:30:40,697 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-12-10 16:30:40,698 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 720 ms
+2021-12-10 16:30:40,790 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-3 - Starting...
+2021-12-10 16:30:40,807 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-3 - Start completed.
+2021-12-10 16:30:40,810 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-12-10 16:30:40,813 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL94Dialect
+2021-12-10 16:30:40,894 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-12-10 16:30:40,895 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-12-10 16:30:41,027 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-12-10 16:30:41,189 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@41420c5f, org.springframework.security.web.context.SecurityContextPersistenceFilter@17f191b6, org.springframework.security.web.header.HeaderWriterFilter@28bacb87, org.springframework.web.filter.CorsFilter@330fedae, org.springframework.security.web.authentication.logout.LogoutFilter@10930364, com.flentas.config.JwtRequestFilter@3fe33389, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@376abf56, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@49f2accf, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@36bf897d, org.springframework.security.web.session.SessionManagementFilter@77b6ae52, org.springframework.security.web.access.ExceptionTranslationFilter@1e47df89, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@7166a619]
+2021-12-10 16:30:41,287 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2021-12-10 16:30:41,297 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-3307"]
+2021-12-10 16:30:41,297 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 3307 (http) with context path ''
+2021-12-10 16:30:41,303 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started SplitMergeCompressUtilityApplication in 1.36 seconds (JVM running for 818.714)
+2021-12-10 16:30:41,305 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2021-12-10 16:30:41,306 INFO com.flentas.SplitMergeCompressUtilityApplication [restartedMain] SpringBootApplication executed successfully
+2021-12-10 16:30:44,101 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [Thread-11] Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-12-10 16:30:44,101 INFO com.zaxxer.hikari.HikariDataSource [Thread-11] HikariPool-3 - Shutdown initiated...
+2021-12-10 16:30:44,115 INFO com.zaxxer.hikari.HikariDataSource [Thread-11] HikariPool-3 - Shutdown completed.
+2021-12-10 16:30:44,224 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting SplitMergeCompressUtilityApplication using Java 16.0.2 on shraddha-Inspiron-5570 with PID 27964 (/home/shraddha/smc stable code 9 Dec/SMCUtility/SplitMergeCompressUtility/target/classes started by shraddha in /home/shraddha/smc stable code 9 Dec/SMCUtility/SplitMergeCompressUtility)
+2021-12-10 16:30:44,224 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-12-10 16:30:44,390 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-12-10 16:30:44,402 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 11 ms. Found 1 JPA repository interfaces.
+2021-12-10 16:30:44,456 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@7cfaa0a8' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-12-10 16:30:44,457 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-12-10 16:30:44,528 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 3307 (http)
+2021-12-10 16:30:44,528 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-3307"]
+2021-12-10 16:30:44,529 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2021-12-10 16:30:44,529 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.52]
+2021-12-10 16:30:44,538 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-12-10 16:30:44,539 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 312 ms
+2021-12-10 16:30:44,610 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-4 - Starting...
+2021-12-10 16:30:44,630 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-4 - Start completed.
+2021-12-10 16:30:44,633 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-12-10 16:30:44,637 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL94Dialect
+2021-12-10 16:30:44,725 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-12-10 16:30:44,726 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-12-10 16:30:44,854 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-12-10 16:30:44,995 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1765995a, org.springframework.security.web.context.SecurityContextPersistenceFilter@161121d0, org.springframework.security.web.header.HeaderWriterFilter@5f156c30, org.springframework.web.filter.CorsFilter@369573be, org.springframework.security.web.authentication.logout.LogoutFilter@617b78e5, com.flentas.config.JwtRequestFilter@7a0dfe3f, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@50e5bc33, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@24652ef3, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5e488386, org.springframework.security.web.session.SessionManagementFilter@1f38af83, org.springframework.security.web.access.ExceptionTranslationFilter@14da4d0c, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5a0b265]
+2021-12-10 16:30:45,076 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2021-12-10 16:30:45,085 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-3307"]
+2021-12-10 16:30:45,086 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 3307 (http) with context path ''
+2021-12-10 16:30:45,091 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started SplitMergeCompressUtilityApplication in 0.912 seconds (JVM running for 822.502)
+2021-12-10 16:30:45,092 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2021-12-10 16:30:45,093 INFO com.flentas.SplitMergeCompressUtilityApplication [restartedMain] SpringBootApplication executed successfully
+2021-12-10 16:30:52,687 INFO org.apache.juli.logging.DirectJDKLog [http-nio-3307-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-12-10 16:30:52,687 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-3307-exec-2] Initializing Servlet 'dispatcherServlet'
+2021-12-10 16:30:52,689 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-3307-exec-2] Completed initialization in 1 ms
+2021-12-10 16:30:52,692 INFO com.flentas.service.JwtUserDetailsService [http-nio-3307-exec-2] Request for jwtUserDetailsService initiate successfullyapp2
+2021-12-10 16:30:52,692 INFO com.flentas.service.JwtUserDetailsService [http-nio-3307-exec-2] appData1app1~$2a$10$.raFrFyP2F/MnqdKdx9Jces5oZIFRyD8FX7B318WEFpmqcpQKV9ym##app2~$2a$10$l3o7o.a7b0tlFKhNVP9VneF8Me8jkjEch3JzJxMnBZ7rWEFpOFcjq##app3~$2a$10$ElToW9zI8DZyElG51GzgRe2kgIVy113X4232.txzRkoTLfkST5Qhm
+2021-12-10 16:30:52,692 INFO com.flentas.service.JwtUserDetailsService [http-nio-3307-exec-2] appId checked successfullyapp2
+2021-12-10 16:30:52,692 INFO com.flentas.service.JwtUserDetailsService [http-nio-3307-exec-2] appSecretKey matched successfully$2a$10$l3o7o.a7b0tlFKhNVP9VneF8Me8jkjEch3JzJxMnBZ7rWEFpOFcjq
+2021-12-10 16:30:52,696 INFO com.flentas.config.ResponseHeaderFilter [http-nio-3307-exec-2] Logging Request  POST : /api/merge
+2021-12-10 16:30:52,710 INFO com.flentas.controller.MergeController [http-nio-3307-exec-2] Request received for merge files successfully[Lorg.springframework.web.multipart.MultipartFile;@4e58809
+2021-12-10 16:30:52,713 INFO com.flentas.serviceImpl.MergeServiceImpl [http-nio-3307-exec-2] files uploaded successfully15705606412.pdf
+2021-12-10 16:30:52,714 INFO com.flentas.serviceImpl.MergeServiceImpl [http-nio-3307-exec-2] files uploaded successfullyAdharCard.pdf
+2021-12-10 16:30:52,715 INFO com.flentas.serviceImpl.MergeServiceImpl [http-nio-3307-exec-2] Uploaded file added to pdf merger: /home/shraddha/smc stable code 9 Dec/SMCUtility/SplitMergeCompressUtility/mergeUploads/115705606412.pdf
+2021-12-10 16:30:52,715 INFO com.flentas.serviceImpl.MergeServiceImpl [http-nio-3307-exec-2] Uploaded file added to pdf merger: /home/shraddha/smc stable code 9 Dec/SMCUtility/SplitMergeCompressUtility/mergeUploads/2AdharCard.pdf
+2021-12-10 16:30:52,758 INFO com.flentas.serviceImpl.MergeServiceImpl [http-nio-3307-exec-2] PDF Merged successfully
+2021-12-10 16:30:52,791 INFO com.flentas.serviceImpl.MergeServiceImpl [http-nio-3307-exec-2] Added to audit successfully
+2021-12-10 16:30:52,793 INFO com.flentas.serviceImpl.MergeServiceImpl [http-nio-3307-exec-2] uploaded files deleted successfully
+2021-12-10 16:30:52,794 INFO com.flentas.serviceImpl.MergeServiceImpl [http-nio-3307-exec-2] uploaded files deleted successfully
+2021-12-10 16:30:52,796 INFO com.flentas.serviceImpl.MergeServiceImpl [http-nio-3307-exec-2] Final Path: mergeOutput/merged_10122021_163052.pdf
+2021-12-10 16:30:52,798 INFO com.flentas.serviceImpl.MergeServiceImpl [http-nio-3307-exec-2] merged file downloaded successfully:merged_10122021_163052.pdf
+2021-12-10 16:30:52,800 INFO com.flentas.serviceImpl.MergeServiceImpl [http-nio-3307-exec-2] merged file downloaded successfully:mergeOutput/merged_10122021_163052.pdf
+2021-12-10 16:30:52,818 INFO com.flentas.config.ResponseHeaderFilter [http-nio-3307-exec-2] Logging Response :application/octet-stream
+2021-12-10 16:47:27,584 INFO com.flentas.service.JwtUserDetailsService [http-nio-3307-exec-5] Request for jwtUserDetailsService initiate successfullyapp2
+2021-12-10 16:47:27,609 INFO com.flentas.service.JwtUserDetailsService [http-nio-3307-exec-5] appData1app1~$2a$10$.raFrFyP2F/MnqdKdx9Jces5oZIFRyD8FX7B318WEFpmqcpQKV9ym##app2~$2a$10$l3o7o.a7b0tlFKhNVP9VneF8Me8jkjEch3JzJxMnBZ7rWEFpOFcjq##app3~$2a$10$ElToW9zI8DZyElG51GzgRe2kgIVy113X4232.txzRkoTLfkST5Qhm
+2021-12-10 16:47:27,610 INFO com.flentas.service.JwtUserDetailsService [http-nio-3307-exec-5] appId checked successfullyapp2
+2021-12-10 16:47:27,610 INFO com.flentas.service.JwtUserDetailsService [http-nio-3307-exec-5] appSecretKey matched successfully$2a$10$l3o7o.a7b0tlFKhNVP9VneF8Me8jkjEch3JzJxMnBZ7rWEFpOFcjq
+2021-12-10 16:47:27,613 INFO com.flentas.config.ResponseHeaderFilter [http-nio-3307-exec-5] Logging Request  POST : /api/merge
+2021-12-10 16:47:27,676 WARN org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver [http-nio-3307-exec-5] Resolved [org.springframework.web.multipart.support.MissingServletRequestPartException: Required request part 'files' is not present]
+2021-12-10 16:47:27,679 INFO com.flentas.config.ResponseHeaderFilter [http-nio-3307-exec-5] Logging Response :null
+2021-12-10 16:47:58,957 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [Thread-15] Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-12-10 16:47:58,958 INFO com.zaxxer.hikari.HikariDataSource [Thread-15] HikariPool-4 - Shutdown initiated...
+2021-12-10 16:47:59,004 INFO com.zaxxer.hikari.HikariDataSource [Thread-15] HikariPool-4 - Shutdown completed.
+2021-12-10 16:47:59,142 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting SplitMergeCompressUtilityApplication using Java 16.0.2 on shraddha-Inspiron-5570 with PID 27964 (/home/shraddha/smc stable code 9 Dec/SMCUtility/SplitMergeCompressUtility/target/classes started by shraddha in /home/shraddha/smc stable code 9 Dec/SMCUtility/SplitMergeCompressUtility)
+2021-12-10 16:47:59,143 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-12-10 16:47:59,320 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-12-10 16:47:59,331 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 9 ms. Found 1 JPA repository interfaces.
+2021-12-10 16:47:59,385 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@48b6ddc2' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-12-10 16:47:59,386 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-12-10 16:47:59,501 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 3307 (http)
+2021-12-10 16:47:59,502 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-3307"]
+2021-12-10 16:47:59,502 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2021-12-10 16:47:59,502 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.52]
+2021-12-10 16:47:59,718 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-12-10 16:47:59,718 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 573 ms
+2021-12-10 16:47:59,781 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-5 - Starting...
+2021-12-10 16:47:59,857 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-5 - Start completed.
+2021-12-10 16:47:59,864 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-12-10 16:47:59,871 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL94Dialect
+2021-12-10 16:47:59,960 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-12-10 16:47:59,960 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-12-10 16:48:00,096 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-12-10 16:48:00,219 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@312f96f, org.springframework.security.web.context.SecurityContextPersistenceFilter@5a9e62bf, org.springframework.security.web.header.HeaderWriterFilter@7315aeca, org.springframework.web.filter.CorsFilter@261d8021, org.springframework.security.web.authentication.logout.LogoutFilter@5a715ec1, com.flentas.config.JwtRequestFilter@67056982, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@78c3692e, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@267efb02, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@897c443, org.springframework.security.web.session.SessionManagementFilter@1208fe15, org.springframework.security.web.access.ExceptionTranslationFilter@36c297bd, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@2e5c1ff3]
+2021-12-10 16:48:00,294 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2021-12-10 16:48:00,301 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-3307"]
+2021-12-10 16:48:00,302 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 3307 (http) with context path ''
+2021-12-10 16:48:00,307 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started SplitMergeCompressUtilityApplication in 1.233 seconds (JVM running for 1857.718)
+2021-12-10 16:48:00,309 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2021-12-10 16:48:00,309 INFO com.flentas.SplitMergeCompressUtilityApplication [restartedMain] SpringBootApplication executed successfully
+2021-12-10 16:48:12,925 INFO org.apache.juli.logging.DirectJDKLog [http-nio-3307-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-12-10 16:48:12,925 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-3307-exec-2] Initializing Servlet 'dispatcherServlet'
+2021-12-10 16:48:12,926 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-3307-exec-2] Completed initialization in 1 ms
+2021-12-10 16:48:12,929 INFO com.flentas.service.JwtUserDetailsService [http-nio-3307-exec-2] Request for jwtUserDetailsService initiate successfullyapp2
+2021-12-10 16:48:12,929 INFO com.flentas.service.JwtUserDetailsService [http-nio-3307-exec-2] appData1app1~$2a$10$.raFrFyP2F/MnqdKdx9Jces5oZIFRyD8FX7B318WEFpmqcpQKV9ym##app2~$2a$10$l3o7o.a7b0tlFKhNVP9VneF8Me8jkjEch3JzJxMnBZ7rWEFpOFcjq##app3~$2a$10$ElToW9zI8DZyElG51GzgRe2kgIVy113X4232.txzRkoTLfkST5Qhm
+2021-12-10 16:48:12,930 INFO com.flentas.service.JwtUserDetailsService [http-nio-3307-exec-2] appId checked successfullyapp2
+2021-12-10 16:48:12,930 INFO com.flentas.service.JwtUserDetailsService [http-nio-3307-exec-2] appSecretKey matched successfully$2a$10$l3o7o.a7b0tlFKhNVP9VneF8Me8jkjEch3JzJxMnBZ7rWEFpOFcjq
+2021-12-10 16:48:12,933 INFO com.flentas.config.ResponseHeaderFilter [http-nio-3307-exec-2] Logging Request  POST : /api/merge
+2021-12-10 16:48:13,138 INFO com.flentas.controller.MergeController [http-nio-3307-exec-2] Request received for merge files successfully[Lorg.springframework.web.multipart.MultipartFile;@47ae8486
+2021-12-10 16:48:13,242 INFO com.flentas.serviceImpl.MergeServiceImpl [http-nio-3307-exec-2] files uploaded successfully15705606412.pdf
+2021-12-10 16:48:13,245 INFO com.flentas.serviceImpl.MergeServiceImpl [http-nio-3307-exec-2] files uploaded successfullyAdharCard.pdf
+2021-12-10 16:48:13,247 INFO com.flentas.serviceImpl.MergeServiceImpl [http-nio-3307-exec-2] Uploaded file added to pdf merger: /home/shraddha/smc stable code 9 Dec/SMCUtility/SplitMergeCompressUtility/mergeUploads/115705606412.pdf
+2021-12-10 16:48:13,248 INFO com.flentas.serviceImpl.MergeServiceImpl [http-nio-3307-exec-2] Uploaded file added to pdf merger: /home/shraddha/smc stable code 9 Dec/SMCUtility/SplitMergeCompressUtility/mergeUploads/2AdharCard.pdf
+2021-12-10 16:48:13,361 INFO com.flentas.serviceImpl.MergeServiceImpl [http-nio-3307-exec-2] PDF Merged successfully
+2021-12-10 16:48:13,377 INFO com.flentas.serviceImpl.MergeServiceImpl [http-nio-3307-exec-2] Added to audit successfully
+2021-12-10 16:48:13,377 INFO com.flentas.serviceImpl.MergeServiceImpl [http-nio-3307-exec-2] uploaded files deleted successfully
+2021-12-10 16:48:13,378 INFO com.flentas.serviceImpl.MergeServiceImpl [http-nio-3307-exec-2] uploaded files deleted successfully
+2021-12-10 16:48:13,378 INFO com.flentas.serviceImpl.MergeServiceImpl [http-nio-3307-exec-2] Final Path: mergeOutput/merged_10122021_164813.pdf
+2021-12-10 16:48:13,378 INFO com.flentas.serviceImpl.MergeServiceImpl [http-nio-3307-exec-2] merged file downloaded successfully:merged_10122021_164813.pdf
+2021-12-10 16:48:13,378 INFO com.flentas.serviceImpl.MergeServiceImpl [http-nio-3307-exec-2] merged file downloaded successfully:mergeOutput/merged_10122021_164813.pdf
+2021-12-10 16:48:13,382 INFO com.flentas.config.ResponseHeaderFilter [http-nio-3307-exec-2] Logging Response :application/octet-stream
+2021-12-10 16:49:51,916 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [Thread-19] Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-12-10 16:49:51,916 INFO com.zaxxer.hikari.HikariDataSource [Thread-19] HikariPool-5 - Shutdown initiated...
+2021-12-10 16:49:51,922 INFO com.zaxxer.hikari.HikariDataSource [Thread-19] HikariPool-5 - Shutdown completed.
+2021-12-10 16:49:52,024 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting SplitMergeCompressUtilityApplication using Java 16.0.2 on shraddha-Inspiron-5570 with PID 27964 (/home/shraddha/smc stable code 9 Dec/SMCUtility/SplitMergeCompressUtility/target/classes started by shraddha in /home/shraddha/smc stable code 9 Dec/SMCUtility/SplitMergeCompressUtility)
+2021-12-10 16:49:52,025 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-12-10 16:49:52,183 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-12-10 16:49:52,195 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 11 ms. Found 1 JPA repository interfaces.
+2021-12-10 16:49:52,251 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@544289ad' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-12-10 16:49:52,252 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-12-10 16:49:52,316 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 3307 (http)
+2021-12-10 16:49:52,317 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-3307"]
+2021-12-10 16:49:52,317 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2021-12-10 16:49:52,317 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.52]
+2021-12-10 16:49:52,433 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-12-10 16:49:52,433 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 406 ms
+2021-12-10 16:49:52,487 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-6 - Starting...
+2021-12-10 16:49:52,510 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-6 - Start completed.
+2021-12-10 16:49:52,514 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-12-10 16:49:52,520 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL94Dialect
+2021-12-10 16:49:52,601 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-12-10 16:49:52,601 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-12-10 16:49:52,726 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-12-10 16:49:52,872 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1a71789d, org.springframework.security.web.context.SecurityContextPersistenceFilter@29d716f2, org.springframework.security.web.header.HeaderWriterFilter@4a1832af, org.springframework.web.filter.CorsFilter@6c02f0e3, org.springframework.security.web.authentication.logout.LogoutFilter@2b0d1ea1, com.flentas.config.JwtRequestFilter@26788271, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@ab464dc, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1b2a26f, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@21bfbf95, org.springframework.security.web.session.SessionManagementFilter@c76f06b, org.springframework.security.web.access.ExceptionTranslationFilter@4a3d3fb3, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@3a8daa8b]
+2021-12-10 16:49:52,964 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2021-12-10 16:49:52,977 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 3307 (http) with context path ''
+2021-12-10 16:49:52,982 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started SplitMergeCompressUtilityApplication in 0.995 seconds (JVM running for 1970.393)
+2021-12-10 16:49:52,983 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2021-12-10 16:49:52,983 INFO com.flentas.SplitMergeCompressUtilityApplication [restartedMain] SpringBootApplication executed successfully
+2021-12-10 16:49:52,992 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-12-10 16:49:52,992 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-6 - Shutdown initiated...
+2021-12-10 16:49:52,998 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-6 - Shutdown completed.
+2021-12-10 16:49:56,413 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting SplitMergeCompressUtilityApplication using Java 16.0.2 on shraddha-Inspiron-5570 with PID 30536 (/home/shraddha/smc stable code 9 Dec/SMCUtility/SplitMergeCompressUtility/target/classes started by shraddha in /home/shraddha/smc stable code 9 Dec/SMCUtility/SplitMergeCompressUtility)
+2021-12-10 16:49:56,416 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-12-10 16:49:56,479 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-12-10 16:49:56,479 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-12-10 16:49:57,611 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-12-10 16:49:57,672 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 54 ms. Found 1 JPA repository interfaces.
+2021-12-10 16:49:58,062 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@7f49684f' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-12-10 16:49:58,070 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-12-10 16:49:58,531 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 3307 (http)
+2021-12-10 16:49:58,539 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-3307"]
+2021-12-10 16:49:58,540 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2021-12-10 16:49:58,540 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.52]
+2021-12-10 16:49:58,603 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-12-10 16:49:58,603 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 2123 ms
+2021-12-10 16:49:58,864 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2021-12-10 16:49:59,352 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2021-12-10 16:49:59,436 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-12-10 16:49:59,521 INFO org.hibernate.Version [restartedMain] HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-12-10 16:49:59,742 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [restartedMain] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-12-10 16:49:59,854 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL94Dialect
+2021-12-10 16:50:00,444 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-12-10 16:50:00,455 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-12-10 16:50:00,779 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-12-10 16:50:01,209 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@23d3913, org.springframework.security.web.context.SecurityContextPersistenceFilter@6ba1710, org.springframework.security.web.header.HeaderWriterFilter@341ce522, org.springframework.web.filter.CorsFilter@3dc8abf2, org.springframework.security.web.authentication.logout.LogoutFilter@4dc71083, com.flentas.config.JwtRequestFilter@fa756db, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@349aeec1, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4a06699b, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@620a0f7d, org.springframework.security.web.session.SessionManagementFilter@63bb0718, org.springframework.security.web.access.ExceptionTranslationFilter@19d83df0, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@42bf0eb2]
+2021-12-10 16:50:01,422 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2021-12-10 16:50:01,482 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-3307"]
+2021-12-10 16:50:01,501 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 3307 (http) with context path ''
+2021-12-10 16:50:01,513 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started SplitMergeCompressUtilityApplication in 5.861 seconds (JVM running for 7.468)
+2021-12-10 16:50:01,518 INFO com.flentas.SplitMergeCompressUtilityApplication [restartedMain] SpringBootApplication executed successfully
+2021-12-10 16:50:02,413 INFO org.apache.juli.logging.DirectJDKLog [http-nio-3307-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-12-10 16:50:02,413 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-3307-exec-1] Initializing Servlet 'dispatcherServlet'
+2021-12-10 16:50:02,415 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-3307-exec-1] Completed initialization in 1 ms
+2021-12-10 16:50:02,698 INFO com.flentas.service.JwtUserDetailsService [http-nio-3307-exec-1] Request for jwtUserDetailsService initiate successfullyapp2
+2021-12-10 16:50:02,699 INFO com.flentas.service.JwtUserDetailsService [http-nio-3307-exec-1] appData1app1~$2a$10$.raFrFyP2F/MnqdKdx9Jces5oZIFRyD8FX7B318WEFpmqcpQKV9ym##app2~$2a$10$l3o7o.a7b0tlFKhNVP9VneF8Me8jkjEch3JzJxMnBZ7rWEFpOFcjq##app3~$2a$10$ElToW9zI8DZyElG51GzgRe2kgIVy113X4232.txzRkoTLfkST5Qhm
+2021-12-10 16:50:02,700 INFO com.flentas.service.JwtUserDetailsService [http-nio-3307-exec-1] appId checked successfullyapp2
+2021-12-10 16:50:02,701 INFO com.flentas.service.JwtUserDetailsService [http-nio-3307-exec-1] appSecretKey matched successfully$2a$10$l3o7o.a7b0tlFKhNVP9VneF8Me8jkjEch3JzJxMnBZ7rWEFpOFcjq
+2021-12-10 16:50:02,720 INFO com.flentas.config.ResponseHeaderFilter [http-nio-3307-exec-1] Logging Request  POST : /api/merge
+2021-12-10 16:50:02,779 INFO com.flentas.controller.MergeController [http-nio-3307-exec-1] Request received for merge files successfully[Lorg.springframework.web.multipart.MultipartFile;@1028ffb6
+2021-12-10 16:50:02,832 INFO com.flentas.serviceImpl.MergeServiceImpl [http-nio-3307-exec-1] files uploaded successfully15705606412.pdf
+2021-12-10 16:50:02,833 INFO com.flentas.serviceImpl.MergeServiceImpl [http-nio-3307-exec-1] files uploaded successfullyAdharCard.pdf
+2021-12-10 16:50:02,834 INFO com.flentas.serviceImpl.MergeServiceImpl [http-nio-3307-exec-1] Uploaded file added to pdf merger: /home/shraddha/smc stable code 9 Dec/SMCUtility/SplitMergeCompressUtility/mergeUploads/115705606412.pdf
+2021-12-10 16:50:02,835 INFO com.flentas.serviceImpl.MergeServiceImpl [http-nio-3307-exec-1] Uploaded file added to pdf merger: /home/shraddha/smc stable code 9 Dec/SMCUtility/SplitMergeCompressUtility/mergeUploads/2AdharCard.pdf
+2021-12-10 16:50:03,365 INFO com.flentas.serviceImpl.MergeServiceImpl [http-nio-3307-exec-1] PDF Merged successfully
+2021-12-10 16:50:03,457 INFO com.flentas.serviceImpl.MergeServiceImpl [http-nio-3307-exec-1] Added to audit successfully
+2021-12-10 16:50:03,458 INFO com.flentas.serviceImpl.MergeServiceImpl [http-nio-3307-exec-1] uploaded files deleted successfully
+2021-12-10 16:50:03,458 INFO com.flentas.serviceImpl.MergeServiceImpl [http-nio-3307-exec-1] uploaded files deleted successfully
+2021-12-10 16:50:03,458 INFO com.flentas.serviceImpl.MergeServiceImpl [http-nio-3307-exec-1] Final Path: mergeOutput/merged_10122021_165002.pdf
+2021-12-10 16:50:03,464 INFO com.flentas.serviceImpl.MergeServiceImpl [http-nio-3307-exec-1] merged file downloaded successfully:merged_10122021_165002.pdf
+2021-12-10 16:50:03,464 INFO com.flentas.serviceImpl.MergeServiceImpl [http-nio-3307-exec-1] merged file downloaded successfully:mergeOutput/merged_10122021_165002.pdf
+2021-12-10 16:50:03,478 INFO com.flentas.config.ResponseHeaderFilter [http-nio-3307-exec-1] Logging Response :application/octet-stream
+2021-12-10 16:50:24,877 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [Thread-5] Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-12-10 16:50:24,880 INFO com.zaxxer.hikari.HikariDataSource [Thread-5] HikariPool-1 - Shutdown initiated...
+2021-12-10 16:50:24,887 INFO com.zaxxer.hikari.HikariDataSource [Thread-5] HikariPool-1 - Shutdown completed.
+2021-12-10 16:50:24,982 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting SplitMergeCompressUtilityApplication using Java 16.0.2 on shraddha-Inspiron-5570 with PID 30536 (/home/shraddha/smc stable code 9 Dec/SMCUtility/SplitMergeCompressUtility/target/classes started by shraddha in /home/shraddha/smc stable code 9 Dec/SMCUtility/SplitMergeCompressUtility)
+2021-12-10 16:50:24,982 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-12-10 16:50:25,171 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-12-10 16:50:25,186 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 14 ms. Found 1 JPA repository interfaces.
+2021-12-10 16:50:25,254 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@57be86ca' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-12-10 16:50:25,256 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-12-10 16:50:25,335 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 3307 (http)
+2021-12-10 16:50:25,336 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-3307"]
+2021-12-10 16:50:25,337 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2021-12-10 16:50:25,337 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.52]
+2021-12-10 16:50:25,471 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-12-10 16:50:25,471 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 486 ms
+2021-12-10 16:50:25,543 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-2 - Starting...
+2021-12-10 16:50:25,569 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-2 - Start completed.
+2021-12-10 16:50:25,573 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-12-10 16:50:25,578 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL94Dialect
+2021-12-10 16:50:25,685 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-12-10 16:50:25,686 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-12-10 16:50:25,814 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-12-10 16:50:25,971 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@286fd801, org.springframework.security.web.context.SecurityContextPersistenceFilter@f98e629, org.springframework.security.web.header.HeaderWriterFilter@37c99c05, org.springframework.web.filter.CorsFilter@5ff0b272, org.springframework.security.web.authentication.logout.LogoutFilter@2e55ce9e, com.flentas.config.JwtRequestFilter@411f2ec5, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2466a134, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5f343809, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@496808bd, org.springframework.security.web.session.SessionManagementFilter@2802376f, org.springframework.security.web.access.ExceptionTranslationFilter@780a6bed, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@63b8bbd3]
+2021-12-10 16:50:26,058 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2021-12-10 16:50:26,068 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-3307"]
+2021-12-10 16:50:26,069 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 3307 (http) with context path ''
+2021-12-10 16:50:26,075 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started SplitMergeCompressUtilityApplication in 1.136 seconds (JVM running for 32.03)
+2021-12-10 16:50:26,078 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2021-12-10 16:50:26,078 INFO com.flentas.SplitMergeCompressUtilityApplication [restartedMain] SpringBootApplication executed successfully
+2021-12-10 21:51:25,565 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(175)-127.0.0.1] Application shutdown requested.
+2021-12-10 21:51:25,576 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [RMI TCP Connection(175)-127.0.0.1] Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-12-10 21:51:25,577 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(175)-127.0.0.1] HikariPool-2 - Shutdown initiated...
+2021-12-10 21:51:25,584 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(175)-127.0.0.1] HikariPool-2 - Shutdown completed.
